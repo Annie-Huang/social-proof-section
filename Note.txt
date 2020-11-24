@@ -1,7 +1,13 @@
 Taking on a FrontEndMentor.io challenge! (https://www.youtube.com/watch?v=K27WULzr2P8)
 
+https://www.frontendmentor.io/dashboard
+https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA
+
 https://github.com/Annie-Huang/social-proof-section
 
+https://hankchizljaw.com/
+https://hankchizljaw.com/wrote/a-modern-css-reset/
+https://github.com/hankchizljaw/modern-css-reset/blob/master/src/reset.css
 =============================================================
 
 

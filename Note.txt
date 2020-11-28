@@ -11,7 +11,7 @@ https://github.com/hankchizljaw/modern-css-reset/blob/master/src/reset.css
 =============================================================
 
 
-
+C:\react\social-proof-section>npm init -y
 
 
 

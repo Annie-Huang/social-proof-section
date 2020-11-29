@@ -121,4 +121,10 @@ h1 {
   font-size: var(--fs-500);
 }
 
+.container {
+  max-width: 70rem;
+  padding: 0 2em;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=main.css.map */

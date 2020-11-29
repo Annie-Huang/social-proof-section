@@ -10,12 +10,14 @@ https://hankchizljaw.com/wrote/a-modern-css-reset/
 https://github.com/hankchizljaw/modern-css-reset/blob/master/src/reset.css
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
+https://developer.mozilla.org/en/docs/Web/CSS/background-image
+https://drafts.csswg.org/css-backgrounds-3/#background-image
 =============================================================
 
 
 C:\react\social-proof-section>npm init -y
 
-
+The _ for the partial scss file, e.g. _global.scss is to tell scss compiler not to compile these files into .css
 
 
 

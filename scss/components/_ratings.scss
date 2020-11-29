@@ -1,8 +1,28 @@
 .ratings {
-  --flow-space: 3rem; /* used in flow-content in _utilities.scss */
+  /* can override flow-content defined in _utilities.scss */
+  //--flow-space: 3rem;
+
   li {
     color: var(--clr-primary-700);
     background: var(--clr-neutral-200);
     font-weight: 800;
+    padding: .5rem;
+
+    &::before {
+      content: '';
+      width: 100px; // this limit the number of stars
+      height: 1rem;
+      margin: 0 auto 0.5rem;
+      display: block;
+
+      //https://developer.mozilla.org/en/docs/Web/CSS/background-image
+      //https://drafts.csswg.org/css-backgrounds-3/#background-image
+      background-image: url(../../images/icon-star.svg);
+      /* this make sure we never half way cut into the image
+         "round" will stretching and squashing the images
+         "space" will space the image,
+      */
+      background-repeat: space;
+    }
   }
 }

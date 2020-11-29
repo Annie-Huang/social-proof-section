@@ -149,8 +149,11 @@ h1 {
   text-align: left;
   border-radius: var(--br);
   padding: var(--spacer);
+  max-width: 25rem;
+  margin: 0 auto;
 }
 .quotes img {
+  width: 3rem;
   border-radius: 50%;
   margin-right: var(--spacer);
 }
@@ -173,6 +176,9 @@ h1 {
   font-weight: 800;
   padding: 0.5rem;
   border-radius: var(--br);
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 .ratings li::before {
   content: "";

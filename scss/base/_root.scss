@@ -13,6 +13,8 @@
   --fs-500: 0.9625rem;
   --fs-900: 2rem; // 32px/16; mobile view on the 10,000+...
 
+  --br: 0.5rem;
+
   // You can only change custom property inside the media query. You cannot change scss variable inside media query.
   @media (min-width: 50em) {
     --fs-900: 3rem;

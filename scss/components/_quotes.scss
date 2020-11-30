@@ -1,6 +1,6 @@
 .quotes {
   --spacer: 2rem;
-  li {
+  blockquote {
     background: var(--clr-primary-700);
     color: var(--clr-neutral-200);
     text-align: left;
@@ -8,6 +8,7 @@
     padding: var(--spacer);
     max-width: 25rem;
     margin: 0 auto;
+    height: 100%;
   }
 
   img {

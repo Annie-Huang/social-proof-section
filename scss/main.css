@@ -150,7 +150,7 @@ h1 {
 .quotes {
   --spacer: 2rem;
 }
-.quotes li {
+.quotes blockquote {
   background: var(--clr-primary-700);
   color: var(--clr-neutral-200);
   text-align: left;
@@ -158,6 +158,7 @@ h1 {
   padding: var(--spacer);
   max-width: 25rem;
   margin: 0 auto;
+  height: 100%;
 }
 .quotes img {
   width: 3rem;

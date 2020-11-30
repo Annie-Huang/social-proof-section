@@ -132,8 +132,10 @@ h1 {
   margin-top: var(--flow-space, 1rem);
 }
 
-.split {
-  display: flex;
+@media (min-width: 50em) {
+  .split {
+    display: flex;
+  }
 }
 
 .a-center {

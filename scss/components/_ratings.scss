@@ -6,7 +6,7 @@
     color: var(--clr-primary-700);
     background: var(--clr-neutral-200);
     font-weight: 800;
-    padding: .5rem;
+    padding: .75rem 2rem; // The 2rem is really for desktop version for the left spacing of the stars
     border-radius: var(--br);
     max-width: 25rem;
     margin-left: auto;
@@ -27,6 +27,14 @@
          "space" will space the image,
       */
       background-repeat: space;
+    }
+
+    @media (min-width: 50em) {
+      display: flex;
+
+      &::before {
+        margin: 0 1.5rem 0 0; // The 1.5rem is really for desktop version for the right spacing of the stars
+      }
     }
   }
 }

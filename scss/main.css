@@ -122,25 +122,28 @@ h1 {
   font-size: var(--fs-500);
 }
 
+main {
+  display: grid;
+  gap: 3rem;
+}
+
 @media (min-width: 50em) {
   main {
-    display: grid;
     grid-template-columns: 1fr 1fr;
   }
-}
 
-.intro {
-  grid-column: 1/2;
-}
+  .intro {
+    grid-column: 1/2;
+  }
 
-.ratings {
-  grid-column: 2/3;
-}
+  .ratings {
+    grid-column: 2/3;
+  }
 
-.quotes {
-  grid-column: 1/-1;
+  .quotes {
+    grid-column: 1/-1;
+  }
 }
-
 .container {
   max-width: 70rem;
   padding: 0 2em;

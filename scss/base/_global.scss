@@ -10,11 +10,14 @@ h1 {
   color: var(--clr-primary-700);
   line-height: 1;
   max-width: 15ch; /*ch is character */
-  margin-left: auto;
-  margin-right: auto;
   //background: pink;
   margin-bottom: 1em;
   font-weight: 800;
+
+  @media (max-width: 50em) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .lead {
@@ -29,6 +32,8 @@ main {
 @media (min-width: 50em) {
   main {
     grid-template-columns: 1fr 1fr;
+    // The examples how in the website doesn't require you to text-align left
+    text-align: left;
   }
   .intro {
     grid-column: 1 / 2;

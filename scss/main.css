@@ -178,6 +178,12 @@ main {
 .quotes {
   --spacer: 2rem;
 }
+.quotes li:nth-child(2) {
+  transform: translateY(3rem);
+}
+.quotes li:nth-child(3) {
+  transform: translateY(6rem);
+}
 .quotes blockquote {
   background: var(--clr-primary-700);
   color: var(--clr-neutral-200);

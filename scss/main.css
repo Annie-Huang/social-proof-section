@@ -236,6 +236,12 @@ main {
   .ratings li::before {
     margin: 0 1.5rem 0 0;
   }
+  .ratings li:first-of-type {
+    transform: translateX(-3rem);
+  }
+  .ratings li:last-of-type {
+    transform: translateX(3rem);
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

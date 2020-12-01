@@ -35,6 +35,14 @@
       &::before {
         margin: 0 1.5rem 0 0; // The 1.5rem is really for desktop version for the right spacing of the stars
       }
+      &:first-of-type {
+        //margin-left: 0;
+        transform: translateX(-3rem);
+      }
+      &:last-of-type {
+        //margin-right: 0;
+        transform: translateX(3rem);
+      }
     }
   }
 }

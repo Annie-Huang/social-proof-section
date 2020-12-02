@@ -12,6 +12,8 @@
     margin-left: auto;
     margin-right: auto;
 
+    /*
+    // Method1: Do the star as the background image in css
     &::before {
       content: '';
       width: 100px; // this limit the number of stars
@@ -22,12 +24,13 @@
       //https://developer.mozilla.org/en/docs/Web/CSS/background-image
       //https://drafts.csswg.org/css-backgrounds-3/#background-image
       background-image: url(../../images/icon-star.svg);
-      /* this make sure we never half way cut into the image
+      !* this make sure we never half way cut into the image
          "round" will stretching and squashing the images
          "space" will space the image,
-      */
+      *!
       background-repeat: space;
     }
+    */
 
     @media (min-width: 50em) {
       display: flex;

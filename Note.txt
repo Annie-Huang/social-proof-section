@@ -12,6 +12,8 @@ https://github.com/hankchizljaw/modern-css-reset/blob/master/src/reset.css
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote
 https://developer.mozilla.org/en/docs/Web/CSS/background-image
 https://drafts.csswg.org/css-backgrounds-3/#background-image
+https://zellwk.com/blog/
+https://zellwk.com/blog/leading-trim/
 =============================================================
 
 

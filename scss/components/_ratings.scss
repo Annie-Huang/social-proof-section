@@ -57,11 +57,15 @@
     //margin: 0 0.125rem; // this allow you to control the spacing of between the star. It's the advantage of doing the stars in the html file
 
     // Option 2: use negative margin with .star on flex
-    margin: -0.25rem 0.5rem 0 0 ;
+    margin: 0 0.5rem 0.5rem;
+    @media (min-width: 50em) {
+      margin: -0.25rem 0.5rem 0 0;
+    }
   }
 }
 
 .stars {
   display: flex;
+  justify-content: center;
 }
 

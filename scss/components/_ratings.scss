@@ -2,6 +2,8 @@
   /* can override flow-content defined in _utilities.scss */
   //--flow-space: 3rem;
 
+  line-height: 1;
+
   li {
     color: var(--clr-primary-700);
     background: var(--clr-neutral-200);
@@ -34,6 +36,7 @@
 
     @media (min-width: 50em) {
       display: flex;
+      align-items: center;
 
       &::before {
         margin: 0 1.5rem 0 0; // The 1.5rem is really for desktop version for the right spacing of the stars
@@ -48,4 +51,17 @@
       }
     }
   }
+  img {
+    // Option 1: use inline-block
+    //display: inline-block;
+    //margin: 0 0.125rem; // this allow you to control the spacing of between the star. It's the advantage of doing the stars in the html file
+
+    // Option 2: use negative margin with .star on flex
+    margin: -0.25rem 0.5rem 0 0 ;
+  }
 }
+
+.stars {
+  display: flex;
+}
+

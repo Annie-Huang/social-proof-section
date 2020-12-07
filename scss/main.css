@@ -216,6 +216,7 @@ main {
 
 .ratings {
   /* can override flow-content defined in _utilities.scss */
+  line-height: 1;
 }
 .ratings li {
   color: var(--clr-primary-700);
@@ -249,6 +250,7 @@ main {
 @media (min-width: 50em) {
   .ratings li {
     display: flex;
+    align-items: center;
   }
   .ratings li::before {
     margin: 0 1.5rem 0 0;
@@ -259,6 +261,13 @@ main {
   .ratings li:last-of-type {
     transform: translateX(3rem);
   }
+}
+.ratings img {
+  margin: -0.25rem 0.5rem 0 0;
+}
+
+.stars {
+  display: flex;
 }
 
 /*# sourceMappingURL=main.css.map */
